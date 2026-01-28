@@ -1,7 +1,17 @@
 import './App.css'
 
+import Home  from './pages/Home'
+import { BrowserRouter, Routes, Route } from 'react-router-dom'
+
 function App() {
-  return <h1>Hola mundo</h1>
+  return (
+    <BrowserRouter>
+      <Routes>
+        <Route path="/" element={<Home />} />
+        <Route path="/ejercicio/:id" element={<div>Próximamente...</div>} />
+      </Routes>
+    </BrowserRouter>
+  )
 }
 
 export default App
