@@ -1,5 +1,5 @@
 import { useParams } from "react-router-dom"
-import Saludo from "../../exercises/fase-01/Saludo"
+import Saludo from "../exercises/fase-01/Saludo"
 
 export function EjercicioDetalle() {
   const { id } = useParams()
