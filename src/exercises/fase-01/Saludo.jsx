@@ -1,4 +1,4 @@
-export default function Saludo({ nombre }) {
+export function Saludo({ nombre }) {
   return (
     <h2>Hola, {nombre}!</h2>
   )

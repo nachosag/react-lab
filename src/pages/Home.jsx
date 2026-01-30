@@ -1,9 +1,9 @@
 // src/pages/HomePage.jsx
 import { useState } from 'react';
-import { Link } from 'react-router-dom'; // Cambiamos a Link para una navegación más semántica
+import { Link } from 'react-router-dom';
 import { roadmapData } from '../data/roadmap';
 
-export default function Home() {
+export function Home() {
   const [faseActiva, setFaseActiva] = useState(null);
 
   return (
