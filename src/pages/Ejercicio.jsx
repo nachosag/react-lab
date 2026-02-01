@@ -3,6 +3,7 @@ import { Saludo } from "../exercises/fase-01/Saludo"
 import { Contador } from "../exercises/fase-01/Contador"
 import { Tareas } from "../exercises/fase-01/Tareas"
 import { Usuarios } from "../exercises/fase-01/Usuarios"
+import { Temporizador } from "../exercises/fase-02/Temporizador"
 
 export function Ejercicio() {
   const { id } = useParams()
@@ -11,7 +12,8 @@ export function Ejercicio() {
     'saludo': <Saludo nombre='NachoSAG'/>,
     'contador': <Contador/>,
     'tareas-estaticas': <Tareas/>,
-    'tarjetas-usuarios': <Usuarios/>
+    'tarjetas-usuarios': <Usuarios/>,
+    'temporizador': <Temporizador/>
   }
 
   return (
