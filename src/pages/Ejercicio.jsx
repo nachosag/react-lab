@@ -5,6 +5,7 @@ import { Tareas } from "../exercises/fase-01/Tareas"
 import { Usuarios } from "../exercises/fase-01/Usuarios"
 import { Temporizador } from "../exercises/fase-02/Temporizador"
 import { ContadorPro } from "../exercises/fase-02/ContadorPro"
+import { LocalStorage } from "../exercises/fase-02/LocalStorage"
 
 export function Ejercicio() {
   const { id } = useParams()
@@ -15,7 +16,8 @@ export function Ejercicio() {
     'tareas-estaticas': <Tareas/>,
     'tarjetas-usuarios': <Usuarios/>,
     'temporizador': <Temporizador/>,
-    'reducer': <ContadorPro/>
+    'reducer': <ContadorPro/>,
+    'localstorage': <LocalStorage/>
   }
 
   return (
